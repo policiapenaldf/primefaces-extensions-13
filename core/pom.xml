@@ -195,6 +195,7 @@
                                 <include>waypoint/**</include>
                                 <include>orgchart/**</include>
                                 <include>clockpicker/**</include>
+                                <include>osmap/**</include>
                             </includes>
                             <aggregations>
                                 <aggregation>
