@@ -46,6 +46,11 @@
             <renderer-type>javax.faces.Head</renderer-type>
             <renderer-class>org.apache.myfaces.renderkit.html.HtmlHeadRenderer</renderer-class>
         </renderer>
+        <renderer>
+            <component-family>org.primefaces.component</component-family>
+            <renderer-type>org.primefaces.component.CommandButtonRenderer</renderer-type>
+            <renderer-class>org.primefaces.extensions.renderer.CommandButtonSingleClickRenderer</renderer-class>
+        </renderer>
     </render-kit>
 
     <faces-config-extension>
