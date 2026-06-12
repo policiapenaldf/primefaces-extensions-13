@@ -2,10 +2,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.primefaces.extensions</groupId>
     <artifactId>primefaces-extensions-parent</artifactId>
-    <version>13.0.20-2026.06.12</version>
+    <version>13.0.20-SEAPE-${revision}</version>
     <packaging>pom</packaging>
     <name>PrimeFaces Extensions Parent</name>
     <description>
+	<!-- Para compilar uma versão nova: mvn clean install "-Drevision=$(Get-Date -Format yyyyMMdd.HHmm)" -->
     <![CDATA[PrimeFaces Extensions Parent Project for Maven multi-module build.]]></description>
     <url>https://github.com/primefaces-extensions</url>
     <inceptionYear>2011</inceptionYear>
